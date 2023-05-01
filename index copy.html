@@ -1,0 +1,165 @@
+<!--DOCTYPE le dice navegador que este archivo es tipo html-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!--títulos-->
+        <title>Zongzi 🐱‍🐉
+        </title>
+        <!--conectar CSS-->
+        <link rel="stylesheet" href="style.css">
+        <!--agregar fuente de google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Neucha&family=Rock+Salt&family=Shantell+Sans&display=swap" rel="stylesheet">
+    </head>
+
+    <!--Dentro de mi body (cuerpo) vamos
+    a poner lo que el usuario ve-->
+    <body>  
+       <h3 class="upper-tittle">La web de</h3>
+       <h1 class="titulo-web"> Zongzi 
+        <img class="paw_1" src="imagenes/paw.png"></h1>
+        <main>
+            <div style="text-align: center;"> 
+              <img src="imagenes/zongzi-wb.png">
+            </div>
+            
+            <!--Listas-->
+            
+            <div class="listas"> 
+              <div class="columna">
+                <p>Cosas que Zongzi <strong>ama:</strong></p>      
+                <ul>
+                    <li>Juguetes</li> <!--item de la lista-->
+                    <li>Plantas</li>
+                    <li>Dormir</li>
+                </ul>
+              </div>
+
+              <div class="columna">
+                <p>Cosas que Zongzi <strong>odia:</strong></p>
+                <ol>
+                    <li>Truenos</li>
+                    <li>Otros gatos</li>
+                    <li>Cítricos</li>
+                </ol>
+              </div>    
+            </div>
+
+
+            <h2>Sobre Zongzi 🍙 </h2>
+            <p>
+              Zongzi (<em>En chino: 粽子</em>) es un gatito adorable que debe su nombre al parecido que tiene con el <em>zongzi</em>, un plato típico de la cocina tradicional china elaborado de arroz glutinoso enrollado con hojas de bambú. 
+              La particular mancha que tiene en la parte superior izquierda de su cabeza contrasta con su pelaje blanco de la misma forma que los jujubes en el zongzi de jujube.
+            </p>
+
+
+            <h2>Las últimas fotos de Zongzi 粽子 📷</h2>
+            <!--Atributos son src (SOURCE[de donde viene])-->
+            <img src="https://pbs.twimg.com/media/FrWV_SQaUAYGMgc?format=jpg&name=small">
+
+            <!--hace un salto de linea, break-->
+            <br>
+            <img class="zong-capy" src="./imagenes/zongzi1.jpg">
+
+            <!--Listas-->
+            <h3>L</h3>
+            <div> <!--elemento div{división de otros elementos}-->
+                <!--strong para letras negritas-->
+                <p>Cosas que los gatos <strong>aman</strong></p>
+                <!--em para letras cursivas-->
+                <p> <em> Lista hecha por Moni</em></p>
+
+                <!--lista no ordenada {unordered list}-->
+                <ul>
+                    <li>Juguetes</li> <!--item de la lista-->
+                    <li>Plantas</li>
+                    <li>capys</li>
+
+                    <!--li*3 +enter hace 3 elementos de lista-->
+
+                </ul>
+
+                <p>Cosas que los gatos odian</p>
+                <!--lista ordenada-->
+                <ol>
+                    <li>truenos</li>
+                    <li>otros gatos</li>
+                    <li>cítricos</li>
+                </ol>
+
+                <img src="./imagenes/jazmin.png" alt="Jazmin">
+                <img src="./imagenes/hoja.png" alt="hojas verdes">
+
+
+            </div>
+
+            <!--Enlaces internos-->
+            <a href="#parrafo-1">Parrafo 1</a>
+            <a href="#parrafo-2">Parrafo 2</a>
+            <a href="#parrafo-3">Parrafo 3</a>
+
+            <h3 id="parrafo-1">Párrafo 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur repudiandae, suscipit ipsam aspernatur architecto libero tempore, pariatur tenetur necessitatibus quasi perspiciatis non atque dolores nemo soluta. Cumque aliquam autem alias.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, autem dolorem omnis molestiae esse voluptatum reiciendis harum eligendi? Inventore et nam corporis enim placeat totam consequuntur tempora rem iste sit!</p>
+
+            <h3 id="parrafo-2">Párrafo 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur repudiandae, suscipit ipsam aspernatur architecto libero tempore, pariatur tenetur necessitatibus quasi perspiciatis non atque dolores nemo soluta. Cumque aliquam autem alias.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, autem dolorem omnis molestiae esse voluptatum reiciendis harum eligendi? Inventore et nam corporis enim placeat totam consequuntur tempora rem iste sit!</p>
+
+            <h3 id="parrafo-2">Párrafo 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur repudiandae, suscipit ipsam aspernatur architecto libero tempore, pariatur tenetur necessitatibus quasi perspiciatis non atque dolores nemo soluta. Cumque aliquam autem alias.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, autem dolorem omnis molestiae esse voluptatum reiciendis harum eligendi? Inventore et nam corporis enim placeat totam consequuntur tempora rem iste sit!</p>
+
+            <!--enlaces externos-->
+            <p>En este link <a href="https://baike.baidu.com/item/%E7%8C%AB/22261">link</a></p>
+
+            <a href="https://baike.baidu.com/item/%E7%8C%AB/22261"> <img src="/imagenes/baidu.jpg"></a>
+
+            <!--formularios con radio, solo tiene 2 opciones-->
+            <p>¿Zongzi es cachorro o adulto?</p>
+            <!--opcion cachorro-->  
+              <label for="cachorro">
+                <input id="cachorro" type="radio"
+                value="cachorro" name="edad"> cachorro 😽
+              </label>
+
+            <!--opcion adulto-->  
+              <label for="adulto">
+                <input id="adulto" type="radio"
+                value="cachorro" name="edad"> adulto 😺 
+              </label>  
+            
+            <!--formulario con checkbox-->  
+           <p>¿qué tipo de gato es el tuyo</p>
+              <label for="cariñoso">
+                <input id="cariñoso" type="checkbox" 
+                value="cariñoso" name="personalidad"> Cariñoso 
+              </label>
+
+              <label for="enojon">
+                <input id="enojon" type="checkbox" 
+                value="enojon" name="personalidad"> Enojón
+              </label>
+
+              <label for="perezoso">
+                <input id="perezoso" type="checkbox" 
+                value="perezoso" name="personalidad"> Perezoso 
+              </label>
+
+              <label for="jugueton">
+                <input id="jugueton" type="checkbox" 
+                value="jugueton" name="personalidad"> Juguetón 
+              </label>
+
+
+        </main>
+        <footer>
+            <p>Página creada por Moni en 
+                <a href="https://tecnolochicas.mx">
+                Tecnolochicas Pro 🙎‍♀️</a></p>
+        </footer>
+
+    </body>
+</html>
+

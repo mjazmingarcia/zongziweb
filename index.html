@@ -1,0 +1,150 @@
+<!--DOCTYPE le dice navegador que este archivo es tipo html-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!--títulos-->
+        <title>Zongzi 🐱‍🐉
+        </title>
+        <!--conectar CSS-->
+        <link rel="stylesheet" href="style.css">
+        <!--agregar fuente de google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Neucha&family=Rock+Salt&family=Shantell+Sans&display=swap" rel="stylesheet">
+    </head>
+
+    <!--Dentro de mi body (cuerpo) vamos
+    a poner lo que el usuario ve-->
+    <body>  
+       <h3 class="upper-tittle">La web de</h3>
+       <h1 class="titulo-web"> Zongzi 
+        <img class="paw_1" src="imagenes/paw.png"></h1>
+        <main>
+            <div style="text-align: center;"> 
+              <img src="imagenes/zongzi-wb.png">
+              <br>
+              <!--Enlaces internos-->
+            <a href="#parrafo-1">Sobre Zongzi 🐱‍👓</a> &nbsp
+            <a href="#parrafo-2">Sobre el zongzi 🍙</a> &nbsp
+            <a href="#parrafo-3">Algunas fotos 📷</a>
+
+
+            </div>
+            
+            <!--Listas-->
+            
+            <div class="listas"> 
+              <div class="columna">
+                <p>Cosas que Zongzi <strong>ama:</strong></p>      
+                <ul>
+                    <li>Juguetes</li> <!--item de la lista-->
+                    <li>Plantas</li>
+                    <li>Dormir</li>
+                </ul>
+              </div>
+
+              <div class="columna">
+                <p>Cosas que Zongzi <strong>odia:</strong></p>
+                <ol>
+                    <li>Truenos</li>
+                    <li>Otros gatos</li>
+                    <li>Cítricos</li>
+                </ol>
+              </div>    
+            </div>
+
+
+            <h2 id="parrafo-1">Sobre Zongzi 🐱‍👓 </h2>
+            <p>
+              Zongzi (<em>En chino: 粽子 zòngzǐ</em>) es un gatito adorable que debe su nombre al parecido que tiene con el <em>zongzi</em>, un plato típico de la cocina tradicional china elaborado de arroz glutinoso enrollado con hojas de bambú. 
+              La particular mancha que tiene en la parte superior izquierda de su cabeza contrasta con su pelaje blanco de la misma forma que los jujubes en el zongzi de jujube.
+            </p>
+
+            <h2 id="parrafo-2">Sobre el zongzi 🍙</h2>
+            <p>
+              El <em>zong</em>, <em>zongzi</em> o <em>rellenos de arroz</em>, es un plato muy típico en la cocina tradicional china a base de arroz glutinoso con diferentes rellenos y enrollado con hojas de bambú. Es un plato que se ha extendido bastante, pues lo cierto es que en otros lugares como Tailandia, Camboya o Vietnam también cuentan con alguna variante. 
+            </p>
+              <p>Desde el punto de vista tradicional, este plato es servido durante el <em>Festival del bote del Dragón</em>, una fiesta celebrada aproximadamente durante la primera quincena de junio. Durante esta fiesta, se intenta honrar la figura de Qu Yuan. Este hombre era un famoso poeta chino que vivió durante los Reinos Combatientes. Intentó proteger a su rey de los avances de los hombres de Qin, no obstante, un general consiguió agarrarlo y tirarlo al río. Según la leyenda, los habitantes del lugar tiraban rellenos de arroz para que los peces no terminaran comiéndose el cuerpo del poeta.</p>
+              <p> Otra versión dice que los rellenos de arroz se virtieron al río para aplacar la furia del dragón que vivía en el río. Sea como sea, todos los años se come este plato tradicional durante esta fiesta para conmemorar a este valiente hombre.
+              </p>
+              <p>La forma del zongzi varía desde una especie de tetraedro hasta un cilindro. Como los tamales-elaborados en México- el zongzi se hace tradicionalmente como un evento familiar con cada uno ayudando a su elaboración, pero hoy en día esto es menos común. </p>
+
+              <p>Los rellenos empleados en el zongzi varían de una región a otra, pero el arroz empleado es siempre arroz glutinoso (denominado también 'pegajoso' o arroz dulce'). En Beijing, la gente acostumbra a usar jujubes y frijol dulce para rellenarlos. </p>
+
+              <figure>
+                <img src="https://i8.meishichina.com/attachment/recipe/2017/05/14/2017051414947358797168811491.jpg?x-oss-process=style/p800"
+                     >
+                <figcaption><em>Zongzi de jujubes (红枣粽子).</em></figcaption>
+            </figure>
+
+              <p>Mira cómo prepararlo <a href="https://sobrechina.com/2014/04/08/zongzi-arroz-envuelto-con-hojas-de-bambu/">aquí</a>.</p>
+
+            
+
+
+            <h2 id="parrafo-3">Algunas fotos de Zongzi 📷</h2>
+            <!--Atributos son src (SOURCE[de donde viene])-->
+            <figure>
+              <img src="imagenes/zongzi02.jpg"
+                   >
+              <figcaption><em>Descansando</em></figcaption>
+          </figure>
+
+            
+          <figure>
+            <img src="imagenes/zongzi03.jpg"
+                 >
+            <figcaption><em>Durmiendo</em></figcaption>
+        </figure>
+
+
+
+            <!--formularios con radio, solo tiene 2 opciones-->
+            <div class="opcion">
+            <p>¿Zongzi es cachorro o adulto?</p>
+            <!--opcion cachorro-->  
+              <label for="cachorro">
+                <input id="cachorro" type="radio"
+                value="cachorro" name="edad"> cachorro 😽
+              </label>
+
+            <!--opcion adulto-->  
+              <label for="adulto">
+                <input id="adulto" type="radio"
+                value="cachorro" name="edad"> adulto 😺 
+              </label>  
+            
+            <!--formulario con checkbox-->  
+           <p>¿qué tipo de gato es?</p>
+              <label for="cariñoso">
+                <input id="cariñoso" type="checkbox" 
+                value="cariñoso" name="personalidad"> Cariñoso 
+              </label>
+
+              <label for="enojon">
+                <input id="enojon" type="checkbox" 
+                value="enojon" name="personalidad"> Enojón
+              </label>
+
+              <label for="perezoso">
+                <input id="perezoso" type="checkbox" 
+                value="perezoso" name="personalidad"> Perezoso 
+              </label>
+
+              <label for="jugueton">
+                <input id="jugueton" type="checkbox" 
+                value="jugueton" name="personalidad"> Juguetón 
+              </label>
+            </div>    
+
+
+        </main>
+        <footer class="pagefoot">
+            <p>Página creada por Moni en 
+                <a href="https://tecnolochicas.mx">
+                Tecnolochicas Pro 🙎‍♀️</a></p>
+        </footer>
+
+    </body>
+</html>
+

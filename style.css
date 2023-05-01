@@ -1,0 +1,75 @@
+/*Aqui va el comentario*/
+body{
+    background: linear-gradient(white,seagreen);
+    color:black;
+    font-family: 'Neucha', cursive;
+}
+
+p{
+    color:black;
+    text-align: justify;
+}
+
+h2{
+    font-family: 'Indie Flower', cursive;
+    color: seagreen;
+    font-style:italic;
+}
+
+h1{
+color:azure
+}
+
+/*Para agregar clase ponemos un punto (.) antes del nombre*/
+
+.upper-tittle{
+    font-family: 'Indie Flower', cursive;
+    text-align:center;
+    padding-right:230px;
+    font-size:large;
+    color: darkslategrey;
+}
+.titulo-web{
+    margin-top: -80px;
+    color: darkslategrey;
+    font-size:80px;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    margin-bottom: -20px;
+} 
+
+/*patitas verdes*/
+.paw_1{
+    width:90px;
+    height:auto;
+}
+
+.listas{
+    display: flex;
+    flex-direction: row;
+}
+
+.columna{
+    flex: 50%;
+    background-image: linear-gradient(to right, rgb(65, 210, 128), rgb(200, 219, 177));
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10%;
+}
+
+img{
+    /*width: 300px; /*ancho*/
+    width: 300px;
+}
+
+.opcion{
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(65, 210, 128), rgb(200, 219, 177));
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10%;
+}
+
+.pagefoot{
+    font-family: 'Shantell Sans', cursive;
+}
